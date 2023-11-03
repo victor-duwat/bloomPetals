@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Entreprise Fleuriste</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <header>
+        <h1>Contactez-nous</h1>
+    </header>
+    
+    <main>
+        <form action="confirmation.html"target="_blank">
+            <label for="civilite">Civilité :</label>
+            <select id="civilite" name="civilite">
+                <option value="M.">M.</option>
+                <option value="Mme">Mme</option>
+                <option value="autres">autres</option>
+                
+            </select>
+            
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" required>
+            
+            <label for="prenom">Prénom :</label>
+            <input type="text" id="prenom" name="prenom" required>
+            
+            <label for="adresse">Adresse postale :</label>
+            <textarea id="adresse" name="adresse" required></textarea>
+            
+            <input type="checkbox" id="politique" name="politique" required>
+            <label for="politique">J'accepte les politiques de confidentialité de l'entreprise.</label>
+            
+            <button type="submit">Validation</button>
+        </form>
+    </main>
+</body>
+</html>

@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+h1 {
+    font-size: 20px;
+    margin: 0;
+    color: #fff;
+}
+
+main {
+    padding: 20px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.employee {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 30%; 
+    margin: 0 2%; 
+}
+
+.employee img {
+    max-width: 100%;
+    height: auto;
+}
+
+.employee h2 {
+    font-size: 24px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.employee p {
+    font-size: 16px;
+    color: #666;
+}
