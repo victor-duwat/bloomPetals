@@ -6,10 +6,25 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #6e6868;
     color: #fff;
     text-align: center;
     padding: 10px 0;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex; 
+    justify-content: flex-start;
+}
+nav ul li{
+    margin: 20px;
+}
+nav a {
+    font-size: large;
+    text-decoration: none;
+    font-weight: bold;
+    color:rgb(8, 5, 5);
 }
 
 h1 {
